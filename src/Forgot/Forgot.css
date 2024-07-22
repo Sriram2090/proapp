@@ -1,0 +1,71 @@
+.cont {
+    
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    background-image: url("../Image/deb1.jpg");
+    background-size: cover;
+    
+   
+}
+
+.forgot-container {
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgb(15, 15, 15);
+    overflow: hidden;
+    width: 300px;
+    max-width: 100%;
+    padding: 20px;
+    text-align: center;
+    background: transparent;
+    text-decoration: none;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+
+.button:hover {
+    background-color: #1a97f1;
+}
+
+a {
+    color: #0c0c0c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,115 @@
+.navbarbackground {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    top: 0;
+    cursor: pointer;
+    font-weight: 700;
+    position:sticky;
+    
+     background-blend-mode: darken;
+     background-size: cover;
+     z-index: 1000;
+     background-color: #8df3a3;
+     opacity: 0.8;
+   }
+
+  .logo img {
+      width: 180px;
+      border-radius: 50px;
+    }
+    
+    .nav-list li {
+      list-style: none;
+      padding: 26px 30px;
+      border-radius:  0%;
+    
+
+      
+    }
+    
+    .nav-list li a {
+      text-decoration: none;
+      border-radius:  50%;
+      
+    }
+   
+   
+.nav-list li a:hover {
+color:darkblue;
+}
+
+    
+   
+    
+    .rightNav {
+      width: 10%;
+      text-align: right;
+      border-radius:  50%;
+     
+      
+    }
+     
+#search {
+  padding: 5px;
+  font-size: 100;
+  
+  border-radius: 20px;
+ 
+}
+.nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .box-main {
+  
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+    border-radius:  50%;
+  }
+  
+  .btn {
+    margin-left: 20px;
+    height: 33px;
+    width: 70px;
+    color: #e65d5d;
+    background-color: #fdfffd;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+  }
+  
+  .btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+    border-radius: 20px;
+  }
+  .const
+  {
+    background-color: #dff6df;
+   
+  }
+  .foot
+  {
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    height: 50px;
+   padding: 20px;
+    font-size: 150%;
+    margin-top: 20px;
+   
+  }

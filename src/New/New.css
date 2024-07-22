@@ -1,0 +1,62 @@
+/* App.css */
+
+.app-container {
+    font-family: 'Arial, sans-serif';
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .app-title {
+    color: #333;
+  }
+  
+  .debate-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    padding: 8px;
+    margin: 8px 0;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .add-button {
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .debate-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .debate-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .delete-button {
+    background: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .navbarbackground {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+      top: 0;
+      cursor: pointer;
+      font-weight: 700;
+      position:sticky;
+      
+       background-blend-mode: darken;
+       background-size: cover;
+       z-index: 1000;
+       background-color:whitesmoke;
+       
+     }
+
+    .logo img {
+        width: 180px;
+        border-radius: 50px;
+      }
+      
+      .nav-list li {
+        list-style: none;
+        padding: 26px 30px;
+        border-radius:  0%;
+      
+
+        
+      }
+      
+      .nav-list li a {
+        text-decoration: none;
+        border-radius:  50%;
+        color: #000000;
+        
+      }
+     
+     
+.nav-list li a:hover {
+  color:darkblue;
+}
+
+      
+     
+      
+      .rightNav {
+        width: 30%;
+        text-align: right;
+        border-radius:  50%;
+       
+        
+      }
+       
+  #search {
+    padding: 5px;
+    font-size: 100;
+    
+    border-radius: 20px;
+   
+  }
+  
+  
+  .footer {
+    background-color: #000000;
+    opacity: 0.8;
+
+  }
+  
+  .nav-list {
+    width: 70%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .card:hover{
+    transform: scale(1.05);
+      }
+  .text-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+  }
+  .box-main {
+  
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    max-width: 80%;
+    margin: auto;
+    height: 80%;
+    border-radius:  50%;
+  }
+  
+  .btn {
+    margin-left: 20px;
+    height: 33px;
+    width: 70px;
+    color: #2b2727;
+    background-color: #f8f7f2;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+  }
+  
+  .btn:hover{
+    transform: scale(1.05);
+  }
+  .btn-sm {
+    padding: 6px 10px;
+    vertical-align: middle;
+    border-radius: 20px;
+  }
+
+  .card:hover{
+transform: scale(1.05);
+  }
+  .fi {
+    background-image: url("https://thumbs.dreamstime.com/b/debate-concept-wooden-cubes-flower-glasses-coins-magnifier-white-background-debate-concept-wooden-cubes-194786679.jpg");
+    height: 10cm;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.h{
+    margin-top: 100px;
+}
+.body{
+    background-color: darkgray;
+}
